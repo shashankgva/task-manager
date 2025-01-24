@@ -57,27 +57,6 @@ Ensure you have the following installed:
    ```
 4. Open the app in your browser: Navigate to http://localhost:5173 (or the port specified in your terminal).
 
-### **Folder Structure**
-
-src/
-├── components/ # Reusable components
-│ ├── AddTaskForm.jsx # Form for adding or editing tasks
-│ ├── Header.jsx # Common header
-│ ├── TaskItem.jsx # Single task component
-│ ├── TaskList.jsx # Displays grouped tasks
-├── context/ # Global state management
-│ └── TaskContext.jsx # Context and reducer for tasks
-├── pages/ # Page-level components
-│ ├── TaskListPage.jsx # Main task list page
-│ ├── AddTaskPage.jsx # Add task page
-│ ├── EditTaskPage.jsx # Edit task page
-├── routes/ # SPA routing configuration
-│ └── AppRoutes.jsx # Application routes with nested structure
-├── styles/ # Global and component-level styles
-│ └── GlobalStyles.js # Global CSS
-├── App.jsx # Main application component
-├── main.jsx # Application entry point
-
 ### **Design Decisions**
 
 1. Context API for State Management
@@ -97,11 +76,11 @@ src/
 
 ### **Additional Features**
 
-Search Tasks: Quickly find tasks by entering a keyword in the search bar.
-Dynamic Status Colors: Each status (Pending, In Progress, Completed) is visually distinguished with colors.
-Accordion for Task Groups: Tasks are grouped into collapsible sections based on their statuses.
-Jost Font: A modern Google font for enhanced readability and design consistency.
-Toast Notifications: Feedback is provided for user actions (e.g., task added, edited, or deleted).
+1. Search Tasks: Quickly find tasks by entering a keyword in the search bar.
+2. Dynamic Status Colors: Each status (Pending, In Progress, Completed) is visually distinguished with colors.
+3. Accordion for Task Groups: Tasks are grouped into collapsible sections based on their statuses.
+4. Jost Font: A modern Google font for enhanced readability and design consistency.
+   Toast Notifications: Feedback is provided for user actions (e.g., task added, edited, or deleted).
 
 ### **How to Use**
 
